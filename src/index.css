@@ -1,0 +1,46 @@
+/* Importa fuentes de Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yrsa&display=swap');
+
+/* Reinicia estilos generales para evitar inconsistencias entre navegadores */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+/* Paleta de colores y sombras definidos como variables para facilitar futuras modificaciones */
+:root {
+  --nav-bg: #162121;
+  --nav-bg-filter: hsla(180, 20%, 11%, 0.9);
+  --nav-bg-blur: #16212180;
+  --font-quicksand: 'Quicksand', sans-serif;
+  --font-yrsa: 'Yrsa', serif;
+  --accent-title: #44b6ca;
+  --background: #070d0d;
+  --foreground: #e4eaec;
+  --accent: #44b6ca;
+  --input: #bedada;
+  --ring: #60c1d2;
+  --light-color: #c7d8d9;
+  --night: #070d0d;
+  --dark-color: #2f3e44;
+  --secondary-color: #568281;
+  --rich-black-filter: #0a151680;
+  --eerie-black-filter: #16222280;
+  --shadow: 6px 6px 10px rgba(0, 0, 0, 0.6);
+  --url-img: url(../src/assets/bg.jpg);
+  --border: 16px;
+  --gradient: linear-gradient(
+    135deg,
+    var(--rich-black-filter) 0%,
+    var(--eerie-black-filter) 100%
+  );
+}
+/* Estilos generales para el cuerpo del documento */
+body {
+  font-family: var(--font-yrsa);
+  background-color: var(--background);
+  color: var(--foreground);
+}

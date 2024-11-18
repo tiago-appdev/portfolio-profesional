@@ -1,0 +1,73 @@
+/* Estilos para el home */
+#home {
+  background-image: url('../../assets/backgroundHome.png');
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: calc(100vh);
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* Estilos para la imagen de la home */
+.inicio-img {
+  width: 50%;
+}
+
+/* Estilos para la descripción de la home */
+.home-description {
+  text-align: left;
+}
+
+/* Estilos para el titulo de la home */
+.home-title {
+  margin-bottom: 1.2rem;
+  font-size: 3.75rem;
+  line-height: 1;
+  font-weight: 800;
+}
+
+/* Estilos para la animación de escritura */
+.typewriter {
+  font-size: 3.75rem;
+  line-height: 1;
+  font-weight: 800;
+  color: #44b6ca;
+  color: #44b6ca;
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+  width: 20ch;
+  animation: typing 2s steps(20), blink 0.5s step-end infinite alternate;
+}
+
+.text {
+  display: inline-block;
+}
+
+.cursor {
+  border-right: 2px solid #44b6ca;
+}
+
+/* Estilos para la animación de escritura */
+@keyframes blink {
+  0%,
+  100% {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #44b6ca;
+  }
+}
+
+/* Estilos para el parrafo de la home */
+.home-paragraph {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  margin-top: 1.25rem;
+  color: #fff;
+  text-align: left;
+}
