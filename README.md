@@ -4,7 +4,7 @@ Bienvenido a mi portafolio, un espacio donde comparto mi trayectoria como **desa
 
 ## Captura
 
-![Hero Seccion 2](/img/sample2.png)
+![Hero Seccion 2](/src/assets/sample2.png)
 
 ## 🌟 Características del proyecto
 
